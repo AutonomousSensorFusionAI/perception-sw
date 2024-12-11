@@ -1,0 +1,27 @@
+[1.593s] Invoking command in '/home/wise/ws_yolov5/src/image_publisher': PYTHONPATH=/home/wise/ws_yolov5/build/image_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/wise/ws_yolov5/build/image_publisher/build install --record /home/wise/ws_yolov5/build/image_publisher/install.log --single-version-externally-managed install_data
+[1.882s] /home/wise/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.883s]   warnings.warn(msg)
+[2.102s] running egg_info
+[2.138s] writing ../../build/image_publisher/image_publisher.egg-info/PKG-INFO
+[2.139s] writing dependency_links to ../../build/image_publisher/image_publisher.egg-info/dependency_links.txt
+[2.139s] writing entry points to ../../build/image_publisher/image_publisher.egg-info/entry_points.txt
+[2.140s] writing requirements to ../../build/image_publisher/image_publisher.egg-info/requires.txt
+[2.140s] writing top-level names to ../../build/image_publisher/image_publisher.egg-info/top_level.txt
+[2.213s] reading manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[2.215s] writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'
+[2.216s] running build
+[2.216s] running build_py
+[2.216s] copying image_publisher/frame_publisher.py -> /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher
+[2.217s] copying image_publisher/__init__.py -> /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher
+[2.217s] running install
+[2.226s] running install_lib
+[2.263s] running install_data
+[2.264s] copying resource/image_publisher -> /home/wise/ws_yolov5/install/image_publisher/share/ament_index/resource_index/packages
+[2.264s] copying package.xml -> /home/wise/ws_yolov5/install/image_publisher/share/image_publisher
+[2.264s] running install_egg_info
+[2.303s] removing '/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[2.303s] Copying ../../build/image_publisher/image_publisher.egg-info to /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info
+[2.305s] running install_scripts
+[2.588s] Installing frame_publisher script to /home/wise/ws_yolov5/install/image_publisher/lib/image_publisher
+[2.589s] writing list of installed files to '/home/wise/ws_yolov5/build/image_publisher/install.log'
+[2.661s] Invoked command in '/home/wise/ws_yolov5/src/image_publisher' returned '0': PYTHONPATH=/home/wise/ws_yolov5/build/image_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_publisher build --build-base /home/wise/ws_yolov5/build/image_publisher/build install --record /home/wise/ws_yolov5/build/image_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+yolov5_node = yolov5_humble.yolov5_node:main

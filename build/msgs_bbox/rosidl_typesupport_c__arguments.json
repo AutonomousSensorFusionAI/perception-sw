@@ -1,0 +1,19 @@
+{
+  "package_name": "msgs_bbox",
+  "output_dir": "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_typesupport_c/msgs_bbox",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_adapter/msgs_bbox:msg/BBox.idl",
+    "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_adapter/msgs_bbox:msg/BBoxes.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_adapter/msgs_bbox/msg/BBox.idl",
+    "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_adapter/msgs_bbox/msg/BBoxes.idl"
+  ]
+}

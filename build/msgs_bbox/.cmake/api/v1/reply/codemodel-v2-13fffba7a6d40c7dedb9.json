@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6c363fee38dfd812cc4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "msgs_bbox__py",
+					"jsonFile" : "directory-msgs_bbox__py-a0a3441ac67c196e0d90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "msgs_bbox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_msgs_bbox_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_msgs_bbox_egg-a80a0322268b887d544b.json",
+					"name" : "ament_cmake_python_build_msgs_bbox_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_msgs_bbox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_msgs_bbox-429b64c71022168635d3.json",
+					"name" : "ament_cmake_python_copy_msgs_bbox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox-902fe7b71015206c24be.json",
+					"name" : "msgs_bbox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__cpp-3b919881672280ddd53c.json",
+					"name" : "msgs_bbox__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "msgs_bbox__py::@eafda2032ac33e0795de",
+					"jsonFile" : "target-msgs_bbox__py-594796bed749508573e4.json",
+					"name" : "msgs_bbox__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_generator_c-bc96aef4bcd609f112f9.json",
+					"name" : "msgs_bbox__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_generator_py-61a53f67e89ff83df3bd.json",
+					"name" : "msgs_bbox__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_c-df1446d82554d3526a42.json",
+					"name" : "msgs_bbox__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_c__pyext-db8fa45109180a566343.json",
+					"name" : "msgs_bbox__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_cpp-9591958098a5ec5de856.json",
+					"name" : "msgs_bbox__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_fastrtps_c-8d39819aaca2b82c2cf5.json",
+					"name" : "msgs_bbox__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_fastrtps_c__pyext-6eebca0af63304bd4122.json",
+					"name" : "msgs_bbox__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_fastrtps_cpp-9bdb9e6d93138e6264dc.json",
+					"name" : "msgs_bbox__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_introspection_c-57ee0e75f7a7565c85e0.json",
+					"name" : "msgs_bbox__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_introspection_c__pyext-4c9bd8b80ff973ba0549.json",
+					"name" : "msgs_bbox__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox__rosidl_typesupport_introspection_cpp-7126c0731b01c7d70d14.json",
+					"name" : "msgs_bbox__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msgs_bbox_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msgs_bbox_uninstall-443b84c6b0d27cc00764.json",
+					"name" : "msgs_bbox_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f31ed32966454d242697.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wise/ws_yolov5/build/msgs_bbox",
+		"source" : "/home/wise/ws_yolov5/src/msgs_bbox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

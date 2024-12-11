@@ -1,0 +1,9 @@
+setup.py
+msgs_bbox/__init__.py
+msgs_bbox.egg-info/PKG-INFO
+msgs_bbox.egg-info/SOURCES.txt
+msgs_bbox.egg-info/dependency_links.txt
+msgs_bbox.egg-info/top_level.txt
+msgs_bbox/msg/__init__.py
+msgs_bbox/msg/_b_box.py
+msgs_bbox/msg/_b_boxes.py

@@ -1,0 +1,6 @@
+source;share/yolov5_humble/hook/pythonpath.ps1
+source;share/yolov5_humble/hook/pythonpath.dsv
+source;share/yolov5_humble/hook/pythonpath.sh
+source;share/yolov5_humble/hook/ament_prefix_path.ps1
+source;share/yolov5_humble/hook/ament_prefix_path.dsv
+source;share/yolov5_humble/hook/ament_prefix_path.sh

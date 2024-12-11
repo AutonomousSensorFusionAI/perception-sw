@@ -1,0 +1,439 @@
+[0.000000] (-) TimerEvent: {}
+[0.000611] (image_publisher) JobQueued: {'identifier': 'image_publisher', 'dependencies': OrderedDict()}
+[0.001102] (msgs_bbox) JobQueued: {'identifier': 'msgs_bbox', 'dependencies': OrderedDict()}
+[0.001330] (yolov5_humble) JobQueued: {'identifier': 'yolov5_humble', 'dependencies': OrderedDict([('msgs_bbox', '/home/wise/ws_yolov5/install/msgs_bbox')])}
+[0.001571] (msgs_bbox) JobStarted: {'identifier': 'msgs_bbox'}
+[0.011276] (image_publisher) JobStarted: {'identifier': 'image_publisher'}
+[0.022373] (msgs_bbox) JobProgress: {'identifier': 'msgs_bbox', 'progress': 'cmake'}
+[0.023472] (msgs_bbox) Command: {'cmd': ['/usr/bin/cmake', '/home/wise/ws_yolov5/src/msgs_bbox', '-DCMAKE_INSTALL_PREFIX=/home/wise/ws_yolov5/install/msgs_bbox'], 'cwd': '/home/wise/ws_yolov5/build/msgs_bbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'wise'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wise/ws_yolov5/install/msgs_bbox/lib:/home/wise/ws_yolov5/install/bbox_ex_msgs/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64:'), ('HOME', '/home/wise'), ('OLDPWD', '/home/wise/ws_yolov5/src/msgs_bbox/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2736'), ('SYSTEMD_EXEC_PID', '2908'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13028'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wise/ws_yolov5/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wise'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1422824338545'), ('JOURNAL_STREAM', '8:50054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wise'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.0/bin:/home/wise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2885,unix/ubuntu:/tmp/.ICE-unix/2885'), ('INVOCATION_ID', '2a29900fe4db47f494cec94a0091acd5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/home/wise/ws_yolov5/install/bbox_ex_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'POSIX'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:07685833-9467-473e-8509-9ee168a38f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wise/ws_yolov5/build/msgs_bbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/bbox_ex_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/bbox_ex_msgs:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.099381] (-) TimerEvent: {}
+[0.116399] (msgs_bbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199548] (-) TimerEvent: {}
+[0.212492] (msgs_bbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.230295] (msgs_bbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299635] (-) TimerEvent: {}
+[0.352518] (msgs_bbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.377410] (msgs_bbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.378264] (msgs_bbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.379743] (msgs_bbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.390025] (msgs_bbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399687] (-) TimerEvent: {}
+[0.500085] (-) TimerEvent: {}
+[0.525680] (msgs_bbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.551066] (msgs_bbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.552347] (msgs_bbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.553901] (msgs_bbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.560767] (msgs_bbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600205] (-) TimerEvent: {}
+[0.700746] (-) TimerEvent: {}
+[0.801301] (-) TimerEvent: {}
+[0.901850] (-) TimerEvent: {}
+[1.002411] (-) TimerEvent: {}
+[1.102967] (-) TimerEvent: {}
+[1.203585] (-) TimerEvent: {}
+[1.292086] (msgs_bbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.303671] (-) TimerEvent: {}
+[1.404169] (-) TimerEvent: {}
+[1.483086] (msgs_bbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.491386] (msgs_bbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.504245] (-) TimerEvent: {}
+[1.507545] (msgs_bbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.578361] (msgs_bbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.604415] (-) TimerEvent: {}
+[1.611529] (image_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_publisher', 'build', '--build-base', '/home/wise/ws_yolov5/build/image_publisher/build', 'install', '--record', '/home/wise/ws_yolov5/build/image_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wise/ws_yolov5/src/image_publisher', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'wise', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wise/ws_yolov5/install/msgs_bbox/lib:/home/wise/ws_yolov5/install/bbox_ex_msgs/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64:', 'HOME': '/home/wise', 'OLDPWD': '/home/wise/ws_yolov5/src/msgs_bbox/msg', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2736', 'SYSTEMD_EXEC_PID': '2908', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13028', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/wise/ws_yolov5/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wise', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1422824338545', 'JOURNAL_STREAM': '8:50054', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wise', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.0/bin:/home/wise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2885,unix/ubuntu:/tmp/.ICE-unix/2885', 'INVOCATION_ID': '2a29900fe4db47f494cec94a0091acd5', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/home/wise/ws_yolov5/install/bbox_ex_msgs:/opt/ros/humble', 'LC_MESSAGES': 'POSIX', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:07685833-9467-473e-8509-9ee168a38f63', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/wise/ws_yolov5/build/image_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wise/ws_yolov5/build/image_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/bbox_ex_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/bbox_ex_msgs', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[1.704551] (-) TimerEvent: {}
+[1.805126] (-) TimerEvent: {}
+[1.905678] (-) TimerEvent: {}
+[1.911492] (image_publisher) StderrLine: {'line': b"/home/wise/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.911916] (image_publisher) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.005806] (-) TimerEvent: {}
+[2.106350] (-) TimerEvent: {}
+[2.138062] (image_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.147198] (msgs_bbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.174058] (image_publisher) StdoutLine: {'line': b'creating ../../build/image_publisher/image_publisher.egg-info\n'}
+[2.174364] (image_publisher) StdoutLine: {'line': b'writing ../../build/image_publisher/image_publisher.egg-info/PKG-INFO\n'}
+[2.175267] (image_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/image_publisher/image_publisher.egg-info/dependency_links.txt\n'}
+[2.175632] (image_publisher) StdoutLine: {'line': b'writing entry points to ../../build/image_publisher/image_publisher.egg-info/entry_points.txt\n'}
+[2.175951] (image_publisher) StdoutLine: {'line': b'writing requirements to ../../build/image_publisher/image_publisher.egg-info/requires.txt\n'}
+[2.176133] (image_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/image_publisher/image_publisher.egg-info/top_level.txt\n'}
+[2.176425] (image_publisher) StdoutLine: {'line': b"writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'\n"}
+[2.206420] (-) TimerEvent: {}
+[2.252411] (image_publisher) StdoutLine: {'line': b"reading manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'\n"}
+[2.254442] (image_publisher) StdoutLine: {'line': b"writing manifest file '../../build/image_publisher/image_publisher.egg-info/SOURCES.txt'\n"}
+[2.254833] (image_publisher) StdoutLine: {'line': b'running build\n'}
+[2.254994] (image_publisher) StdoutLine: {'line': b'running build_py\n'}
+[2.255337] (image_publisher) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher\n'}
+[2.255841] (image_publisher) StdoutLine: {'line': b'copying image_publisher/frame_publisher.py -> /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher\n'}
+[2.256207] (image_publisher) StdoutLine: {'line': b'copying image_publisher/__init__.py -> /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher\n'}
+[2.256741] (image_publisher) StdoutLine: {'line': b'running install\n'}
+[2.265606] (image_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[2.302958] (image_publisher) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher\n'}
+[2.303347] (image_publisher) StdoutLine: {'line': b'copying /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher/frame_publisher.py -> /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher\n'}
+[2.303554] (image_publisher) StdoutLine: {'line': b'copying /home/wise/ws_yolov5/build/image_publisher/build/lib/image_publisher/__init__.py -> /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher\n'}
+[2.304627] (image_publisher) StdoutLine: {'line': b'byte-compiling /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher/frame_publisher.py to frame_publisher.cpython-310.pyc\n'}
+[2.306031] (image_publisher) StdoutLine: {'line': b'byte-compiling /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[2.306416] (image_publisher) StdoutLine: {'line': b'running install_data\n'}
+[2.306532] (-) TimerEvent: {}
+[2.306896] (image_publisher) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/install/image_publisher/share/ament_index/resource_index/packages\n'}
+[2.307302] (image_publisher) StdoutLine: {'line': b'copying resource/image_publisher -> /home/wise/ws_yolov5/install/image_publisher/share/ament_index/resource_index/packages\n'}
+[2.307731] (image_publisher) StdoutLine: {'line': b'copying package.xml -> /home/wise/ws_yolov5/install/image_publisher/share/image_publisher\n'}
+[2.307953] (image_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.348464] (image_publisher) StdoutLine: {'line': b'Copying ../../build/image_publisher/image_publisher.egg-info to /home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages/image_publisher-0.0.0-py3.10.egg-info\n'}
+[2.350304] (image_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.406691] (-) TimerEvent: {}
+[2.507243] (-) TimerEvent: {}
+[2.583456] (msgs_bbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.607349] (-) TimerEvent: {}
+[2.636501] (image_publisher) StdoutLine: {'line': b'Installing frame_publisher script to /home/wise/ws_yolov5/install/image_publisher/lib/image_publisher\n'}
+[2.637432] (image_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/wise/ws_yolov5/build/image_publisher/install.log'\n"}
+[2.707895] (image_publisher) CommandEnded: {'returncode': 0}
+[2.710055] (-) TimerEvent: {}
+[2.745890] (image_publisher) JobEnded: {'identifier': 'image_publisher', 'rc': 0}
+[2.810209] (-) TimerEvent: {}
+[2.910826] (-) TimerEvent: {}
+[3.011673] (-) TimerEvent: {}
+[3.112402] (-) TimerEvent: {}
+[3.176950] (msgs_bbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.212547] (-) TimerEvent: {}
+[3.239071] (msgs_bbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.242509] (msgs_bbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.312865] (-) TimerEvent: {}
+[3.315405] (msgs_bbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.316185] (msgs_bbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.316487] (msgs_bbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.316747] (msgs_bbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.376012] (msgs_bbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.412964] (-) TimerEvent: {}
+[3.477661] (msgs_bbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.513113] (-) TimerEvent: {}
+[3.531444] (msgs_bbox) StdoutLine: {'line': b'-- Generating done\n'}
+[3.548301] (msgs_bbox) StdoutLine: {'line': b'-- Build files have been written to: /home/wise/ws_yolov5/build/msgs_bbox\n'}
+[3.563248] (msgs_bbox) CommandEnded: {'returncode': 0}
+[3.564897] (msgs_bbox) JobProgress: {'identifier': 'msgs_bbox', 'progress': 'build'}
+[3.566495] (msgs_bbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wise/ws_yolov5/build/msgs_bbox', '--', '-j8', '-l8'], 'cwd': '/home/wise/ws_yolov5/build/msgs_bbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'wise'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wise/ws_yolov5/install/msgs_bbox/lib:/home/wise/ws_yolov5/install/bbox_ex_msgs/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64:'), ('HOME', '/home/wise'), ('OLDPWD', '/home/wise/ws_yolov5/src/msgs_bbox/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2736'), ('SYSTEMD_EXEC_PID', '2908'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13028'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wise/ws_yolov5/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wise'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1422824338545'), ('JOURNAL_STREAM', '8:50054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wise'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.0/bin:/home/wise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2885,unix/ubuntu:/tmp/.ICE-unix/2885'), ('INVOCATION_ID', '2a29900fe4db47f494cec94a0091acd5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/home/wise/ws_yolov5/install/bbox_ex_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'POSIX'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:07685833-9467-473e-8509-9ee168a38f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wise/ws_yolov5/build/msgs_bbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/bbox_ex_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/bbox_ex_msgs:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[3.613380] (-) TimerEvent: {}
+[3.646627] (msgs_bbox) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.662186] (msgs_bbox) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.676939] (msgs_bbox) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_msgs_bbox\n'}
+[3.713497] (-) TimerEvent: {}
+[3.814093] (-) TimerEvent: {}
+[3.914659] (-) TimerEvent: {}
+[4.015176] (-) TimerEvent: {}
+[4.105463] (msgs_bbox) StdoutLine: {'line': b'running egg_info\n'}
+[4.115263] (-) TimerEvent: {}
+[4.146707] (msgs_bbox) StdoutLine: {'line': b'creating msgs_bbox.egg-info\n'}
+[4.147393] (msgs_bbox) StdoutLine: {'line': b'writing msgs_bbox.egg-info/PKG-INFO\n'}
+[4.148148] (msgs_bbox) StdoutLine: {'line': b'writing dependency_links to msgs_bbox.egg-info/dependency_links.txt\n'}
+[4.148858] (msgs_bbox) StdoutLine: {'line': b'writing top-level names to msgs_bbox.egg-info/top_level.txt\n'}
+[4.149131] (msgs_bbox) StdoutLine: {'line': b"writing manifest file 'msgs_bbox.egg-info/SOURCES.txt'\n"}
+[4.169272] (msgs_bbox) StdoutLine: {'line': b'[  5%] Built target msgs_bbox__cpp\n'}
+[4.185974] (msgs_bbox) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.186526] (msgs_bbox) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.186943] (msgs_bbox) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.215437] (-) TimerEvent: {}
+[4.240140] (msgs_bbox) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_c.dir/rosidl_generator_c/msgs_bbox/msg/detail/b_boxes__functions.c.o\x1b[0m\n'}
+[4.240607] (msgs_bbox) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_c.dir/rosidl_generator_c/msgs_bbox/msg/detail/b_box__functions.c.o\x1b[0m\n'}
+[4.271641] (msgs_bbox) StdoutLine: {'line': b"reading manifest file 'msgs_bbox.egg-info/SOURCES.txt'\n"}
+[4.273729] (msgs_bbox) StdoutLine: {'line': b"writing manifest file 'msgs_bbox.egg-info/SOURCES.txt'\n"}
+[4.315610] (-) TimerEvent: {}
+[4.324132] (msgs_bbox) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmsgs_bbox__rosidl_generator_c.so\x1b[0m\n'}
+[4.362340] (msgs_bbox) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_msgs_bbox_egg\n'}
+[4.380076] (msgs_bbox) StdoutLine: {'line': b'[ 20%] Built target msgs_bbox__rosidl_generator_c\n'}
+[4.396139] (msgs_bbox) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.396589] (msgs_bbox) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.396742] (msgs_bbox) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.415754] (-) TimerEvent: {}
+[4.516323] (-) TimerEvent: {}
+[4.616912] (-) TimerEvent: {}
+[4.648302] (msgs_bbox) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_bbox/msg/b_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.649265] (msgs_bbox) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_bbox/msg/b_box__type_support.cpp.o\x1b[0m\n'}
+[4.700009] (msgs_bbox) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_bbox/msg/detail/b_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.700578] (msgs_bbox) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_bbox/msg/detail/b_box__type_support.cpp.o\x1b[0m\n'}
+[4.717065] (-) TimerEvent: {}
+[4.727745] (msgs_bbox) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_bbox/msg/detail/dds_fastrtps/b_box__type_support.cpp.o\x1b[0m\n'}
+[4.817252] (-) TimerEvent: {}
+[4.882945] (msgs_bbox) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_bbox/msg/b_box__type_support.cpp.o\x1b[0m\n'}
+[4.917466] (-) TimerEvent: {}
+[4.948012] (msgs_bbox) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_bbox/msg/b_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.953121] (msgs_bbox) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_bbox/msg/detail/b_box__type_support.c.o\x1b[0m\n'}
+[4.993869] (msgs_bbox) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_bbox/msg/detail/b_box__type_support_c.cpp.o\x1b[0m\n'}
+[5.008167] (msgs_bbox) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.017683] (-) TimerEvent: {}
+[5.020556] (msgs_bbox) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_bbox/msg/detail/b_boxes__type_support.c.o\x1b[0m\n'}
+[5.080470] (msgs_bbox) StdoutLine: {'line': b'[ 56%] Built target msgs_bbox__rosidl_typesupport_c\n'}
+[5.094553] (msgs_bbox) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmsgs_bbox__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.095206] (msgs_bbox) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_bbox/msg/detail/dds_fastrtps/b_boxes__type_support.cpp.o\x1b[0m\n'}
+[5.117900] (-) TimerEvent: {}
+[5.149135] (msgs_bbox) StdoutLine: {'line': b'[ 61%] Built target msgs_bbox__rosidl_typesupport_introspection_c\n'}
+[5.167932] (msgs_bbox) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_bbox/msg/detail/b_boxes__type_support_c.cpp.o\x1b[0m\n'}
+[5.200113] (msgs_bbox) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.218085] (-) TimerEvent: {}
+[5.282399] (msgs_bbox) StdoutLine: {'line': b'[ 66%] Built target msgs_bbox__rosidl_typesupport_cpp\n'}
+[5.318283] (-) TimerEvent: {}
+[5.418961] (-) TimerEvent: {}
+[5.519677] (-) TimerEvent: {}
+[5.563459] (msgs_bbox) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.619810] (-) TimerEvent: {}
+[5.699056] (msgs_bbox) StdoutLine: {'line': b'[ 69%] Built target msgs_bbox__rosidl_typesupport_introspection_cpp\n'}
+[5.719977] (-) TimerEvent: {}
+[5.820573] (-) TimerEvent: {}
+[5.853051] (msgs_bbox) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.920754] (-) TimerEvent: {}
+[5.936608] (msgs_bbox) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.985649] (msgs_bbox) StdoutLine: {'line': b'[ 74%] Built target msgs_bbox__rosidl_typesupport_fastrtps_c\n'}
+[6.020889] (-) TimerEvent: {}
+[6.065969] (msgs_bbox) StdoutLine: {'line': b'[ 74%] Built target msgs_bbox__rosidl_typesupport_fastrtps_cpp\n'}
+[6.107720] (msgs_bbox) StdoutLine: {'line': b'[ 74%] Built target msgs_bbox\n'}
+[6.121040] (-) TimerEvent: {}
+[6.149780] (msgs_bbox) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.221163] (-) TimerEvent: {}
+[6.321911] (-) TimerEvent: {}
+[6.422686] (-) TimerEvent: {}
+[6.523240] (-) TimerEvent: {}
+[6.623980] (-) TimerEvent: {}
+[6.724701] (-) TimerEvent: {}
+[6.797522] (msgs_bbox) StdoutLine: {'line': b'[ 76%] Built target msgs_bbox__py\n'}
+[6.824873] (-) TimerEvent: {}
+[6.834246] (msgs_bbox) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_py.dir/rosidl_generator_py/msgs_bbox/msg/_b_boxes_s.c.o\x1b[0m\n'}
+[6.834813] (msgs_bbox) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_py.dir/rosidl_generator_py/msgs_bbox/msg/_b_box_s.c.o\x1b[0m\n'}
+[6.925029] (-) TimerEvent: {}
+[7.021055] (msgs_bbox) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_bbox/libmsgs_bbox__rosidl_generator_py.so\x1b[0m\n'}
+[7.025089] (-) TimerEvent: {}
+[7.098111] (msgs_bbox) StdoutLine: {'line': b'[ 84%] Built target msgs_bbox__rosidl_generator_py\n'}
+[7.125311] (-) TimerEvent: {}
+[7.138433] (msgs_bbox) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.139055] (msgs_bbox) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.139447] (msgs_bbox) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.225474] (-) TimerEvent: {}
+[7.297665] (msgs_bbox) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.305887] (msgs_bbox) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.318113] (msgs_bbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.325644] (-) TimerEvent: {}
+[7.354561] (msgs_bbox) StdoutLine: {'line': b'[100%] Built target msgs_bbox__rosidl_typesupport_c__pyext\n'}
+[7.366531] (msgs_bbox) StdoutLine: {'line': b'[100%] Built target msgs_bbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.374974] (msgs_bbox) StdoutLine: {'line': b'[100%] Built target msgs_bbox__rosidl_typesupport_introspection_c__pyext\n'}
+[7.395597] (msgs_bbox) CommandEnded: {'returncode': 0}
+[7.397801] (msgs_bbox) JobProgress: {'identifier': 'msgs_bbox', 'progress': 'install'}
+[7.416128] (msgs_bbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wise/ws_yolov5/build/msgs_bbox'], 'cwd': '/home/wise/ws_yolov5/build/msgs_bbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'wise'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wise/ws_yolov5/install/msgs_bbox/lib:/home/wise/ws_yolov5/install/bbox_ex_msgs/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64:'), ('HOME', '/home/wise'), ('OLDPWD', '/home/wise/ws_yolov5/src/msgs_bbox/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2736'), ('SYSTEMD_EXEC_PID', '2908'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13028'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/wise/ws_yolov5/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wise'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1422824338545'), ('JOURNAL_STREAM', '8:50054'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wise'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.0/bin:/home/wise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2885,unix/ubuntu:/tmp/.ICE-unix/2885'), ('INVOCATION_ID', '2a29900fe4db47f494cec94a0091acd5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/home/wise/ws_yolov5/install/bbox_ex_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'POSIX'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:07685833-9467-473e-8509-9ee168a38f63'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wise/ws_yolov5/build/msgs_bbox'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/bbox_ex_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/bbox_ex_msgs:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[7.425750] (-) TimerEvent: {}
+[7.434144] (msgs_bbox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.434842] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/rosidl_interfaces/msgs_bbox\n'}
+[7.435261] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.435559] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.435781] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_boxes.h\n'}
+[7.435994] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_box.h\n'}
+[7.436201] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.436391] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__struct.h\n'}
+[7.436590] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__functions.h\n'}
+[7.436820] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.h\n'}
+[7.437063] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__functions.c\n'}
+[7.437288] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__struct.h\n'}
+[7.437494] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__functions.c\n'}
+[7.437714] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.h\n'}
+[7.437947] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__functions.h\n'}
+[7.438171] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.438555] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/library_path.sh\n'}
+[7.438820] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/library_path.dsv\n'}
+[7.439492] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_c.so\n'}
+[7.440015] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_c.so" to ""\n'}
+[7.440345] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.440617] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.440839] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.441052] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[7.441268] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_fastrtps_c.h\n'}
+[7.441476] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.441649] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_c.so\n'}
+[7.441872] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.442130] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.442378] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.442587] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.442799] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_introspection_c.h\n'}
+[7.443013] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.c\n'}
+[7.443227] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.c\n'}
+[7.443402] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_introspection_c.h\n'}
+[7.443705] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.443980] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_c.so\n'}
+[7.444170] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.444354] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_c.so\n'}
+[7.451014] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_c.so" to ""\n'}
+[7.451378] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.451655] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.451959] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_boxes.hpp\n'}
+[7.452224] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_box.hpp\n'}
+[7.452481] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.452739] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__builder.hpp\n'}
+[7.452994] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__traits.hpp\n'}
+[7.453248] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__traits.hpp\n'}
+[7.453534] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__struct.hpp\n'}
+[7.453787] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__builder.hpp\n'}
+[7.454077] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__struct.hpp\n'}
+[7.454355] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.454625] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.454834] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.455092] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.455297] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.455494] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.455902] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/dds_fastrtps\n'}
+[7.456221] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.456478] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.456741] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox\n'}
+[7.456945] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg\n'}
+[7.457144] (msgs_bbox) StdoutLine: {'line': b'-- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail\n'}
+[7.457337] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.457534] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.cpp\n'}
+[7.457783] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.458099] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.cpp\n'}
+[7.459232] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_cpp.so\n'}
+[7.460277] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.460577] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_cpp.so\n'}
+[7.461106] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_cpp.so" to ""\n'}
+[7.461397] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/pythonpath.sh\n'}
+[7.461667] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/pythonpath.dsv\n'}
+[7.461952] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info\n'}
+[7.462507] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.462802] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.463121] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.463486] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.463811] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox\n'}
+[7.464129] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.464418] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.464703] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_c.c\n'}
+[7.465022] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.465298] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.465636] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/__init__.py\n'}
+[7.465955] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg\n'}
+[7.466232] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes_s.c\n'}
+[7.466505] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes.py\n'}
+[7.466729] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/__init__.py\n'}
+[7.466945] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box.py\n'}
+[7.467157] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box_s.c\n'}
+[7.467369] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/libmsgs_bbox__rosidl_generator_py.so\n'}
+[7.467615] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.525901] (-) TimerEvent: {}
+[7.529447] (msgs_bbox) StdoutLine: {'line': b"Listing '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox'...\n"}
+[7.529921] (msgs_bbox) StdoutLine: {'line': b"Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/__init__.py'...\n"}
+[7.530200] (msgs_bbox) StdoutLine: {'line': b"Listing '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg'...\n"}
+[7.530449] (msgs_bbox) StdoutLine: {'line': b"Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/__init__.py'...\n"}
+[7.530678] (msgs_bbox) StdoutLine: {'line': b"Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box.py'...\n"}
+[7.530896] (msgs_bbox) StdoutLine: {'line': b"Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes.py'...\n"}
+[7.540973] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.541514] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.542319] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.542808] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.543174] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.543934] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.544361] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_py.so\n'}
+[7.544699] (msgs_bbox) StdoutLine: {'line': b'-- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_py.so" to ""\n'}
+[7.545150] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBox.idl\n'}
+[7.545478] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBoxes.idl\n'}
+[7.545782] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBox.msg\n'}
+[7.546018] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBoxes.msg\n'}
+[7.546302] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/package_run_dependencies/msgs_bbox\n'}
+[7.546583] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/parent_prefix_path/msgs_bbox\n'}
+[7.546894] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/ament_prefix_path.sh\n'}
+[7.547227] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/ament_prefix_path.dsv\n'}
+[7.547544] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/path.sh\n'}
+[7.547851] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/path.dsv\n'}
+[7.548160] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.bash\n'}
+[7.548467] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.sh\n'}
+[7.548773] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.zsh\n'}
+[7.549106] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.dsv\n'}
+[7.549409] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/package.dsv\n'}
+[7.549846] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/packages/msgs_bbox\n'}
+[7.550315] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cExport.cmake\n'}
+[7.550675] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.551023] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.551364] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.551768] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.552096] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.552463] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cExport.cmake\n'}
+[7.552812] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.553161] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cppExport.cmake\n'}
+[7.553528] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.553883] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.554240] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.554589] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.554949] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cppExport.cmake\n'}
+[7.555301] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.556457] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_pyExport.cmake\n'}
+[7.556941] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.557328] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake-extras.cmake\n'}
+[7.557643] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.558415] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.558923] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.559473] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.560684] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.561213] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.561679] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bboxConfig.cmake\n'}
+[7.562380] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bboxConfig-version.cmake\n'}
+[7.562703] (msgs_bbox) StdoutLine: {'line': b'-- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/package.xml\n'}
+[7.569100] (msgs_bbox) CommandEnded: {'returncode': 0}
+[7.623993] (msgs_bbox) JobEnded: {'identifier': 'msgs_bbox', 'rc': 0}
+[7.627478] (-) TimerEvent: {}
+[7.627839] (yolov5_humble) JobStarted: {'identifier': 'yolov5_humble'}
+[7.727644] (-) TimerEvent: {}
+[7.828201] (-) TimerEvent: {}
+[7.928749] (-) TimerEvent: {}
+[8.029558] (-) TimerEvent: {}
+[8.130227] (-) TimerEvent: {}
+[8.230944] (-) TimerEvent: {}
+[8.331852] (-) TimerEvent: {}
+[8.432672] (-) TimerEvent: {}
+[8.533397] (-) TimerEvent: {}
+[8.633955] (-) TimerEvent: {}
+[8.734567] (-) TimerEvent: {}
+[8.835065] (-) TimerEvent: {}
+[8.935696] (-) TimerEvent: {}
+[9.036218] (-) TimerEvent: {}
+[9.136758] (-) TimerEvent: {}
+[9.193554] (yolov5_humble) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolov5_humble', 'build', '--build-base', '/home/wise/ws_yolov5/build/yolov5_humble/build', 'install', '--record', '/home/wise/ws_yolov5/build/yolov5_humble/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wise/ws_yolov5/src/yolov5_humble', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'wise', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wise/ws_yolov5/install/msgs_bbox/lib:/home/wise/ws_yolov5/install/bbox_ex_msgs/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64', 'HOME': '/home/wise', 'OLDPWD': '/home/wise/ws_yolov5/src/msgs_bbox/msg', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2736', 'SYSTEMD_EXEC_PID': '2908', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13028', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/wise/ws_yolov5/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wise', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1422824338545', 'JOURNAL_STREAM': '8:50054', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wise', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.0/bin:/home/wise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2885,unix/ubuntu:/tmp/.ICE-unix/2885', 'INVOCATION_ID': '2a29900fe4db47f494cec94a0091acd5', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/home/wise/ws_yolov5/install/bbox_ex_msgs:/opt/ros/humble', 'LC_MESSAGES': 'POSIX', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:07685833-9467-473e-8509-9ee168a38f63', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/wise/ws_yolov5/build/yolov5_humble', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wise/ws_yolov5/build/yolov5_humble/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages:/home/wise/ws_yolov5/install/image_publisher/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:/home/wise/ws_yolov5/install/bbox_ex_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/wise/ws_yolov5/install/msgs_bbox:/home/wise/ws_yolov5/install/bbox_ex_msgs', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[9.236881] (-) TimerEvent: {}
+[9.337401] (-) TimerEvent: {}
+[9.437893] (-) TimerEvent: {}
+[9.493303] (yolov5_humble) StderrLine: {'line': b"/home/wise/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[9.493804] (yolov5_humble) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[9.537977] (-) TimerEvent: {}
+[9.638425] (-) TimerEvent: {}
+[9.709046] (yolov5_humble) StdoutLine: {'line': b'running egg_info\n'}
+[9.738491] (-) TimerEvent: {}
+[9.743627] (yolov5_humble) StdoutLine: {'line': b'creating ../../build/yolov5_humble/yolov5_humble.egg-info\n'}
+[9.744006] (yolov5_humble) StdoutLine: {'line': b'writing ../../build/yolov5_humble/yolov5_humble.egg-info/PKG-INFO\n'}
+[9.744917] (yolov5_humble) StdoutLine: {'line': b'writing dependency_links to ../../build/yolov5_humble/yolov5_humble.egg-info/dependency_links.txt\n'}
+[9.745286] (yolov5_humble) StdoutLine: {'line': b'writing entry points to ../../build/yolov5_humble/yolov5_humble.egg-info/entry_points.txt\n'}
+[9.745443] (yolov5_humble) StdoutLine: {'line': b'writing requirements to ../../build/yolov5_humble/yolov5_humble.egg-info/requires.txt\n'}
+[9.745585] (yolov5_humble) StdoutLine: {'line': b'writing top-level names to ../../build/yolov5_humble/yolov5_humble.egg-info/top_level.txt\n'}
+[9.745774] (yolov5_humble) StdoutLine: {'line': b"writing manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'\n"}
+[9.818038] (yolov5_humble) StdoutLine: {'line': b"reading manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'\n"}
+[9.819769] (yolov5_humble) StdoutLine: {'line': b"writing manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'\n"}
+[9.820113] (yolov5_humble) StdoutLine: {'line': b'running build\n'}
+[9.820275] (yolov5_humble) StdoutLine: {'line': b'running build_py\n'}
+[9.820568] (yolov5_humble) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble\n'}
+[9.821047] (yolov5_humble) StdoutLine: {'line': b'copying yolov5_humble/__init__.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble\n'}
+[9.821398] (yolov5_humble) StdoutLine: {'line': b'copying yolov5_humble/yolov5_node (copy).py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble\n'}
+[9.821689] (yolov5_humble) StdoutLine: {'line': b'copying yolov5_humble/yolov5_node.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble\n'}
+[9.822244] (yolov5_humble) StdoutLine: {'line': b'running install\n'}
+[9.830766] (yolov5_humble) StdoutLine: {'line': b'running install_lib\n'}
+[9.838560] (-) TimerEvent: {}
+[9.866084] (yolov5_humble) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble\n'}
+[9.866405] (yolov5_humble) StdoutLine: {'line': b'copying /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble/__init__.py -> /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble\n'}
+[9.866682] (yolov5_humble) StdoutLine: {'line': b'copying /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble/yolov5_node (copy).py -> /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble\n'}
+[9.866952] (yolov5_humble) StdoutLine: {'line': b'copying /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble/yolov5_node.py -> /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble\n'}
+[9.868061] (yolov5_humble) StdoutLine: {'line': b'byte-compiling /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble/__init__.py to __init__.cpython-310.pyc\n'}
+[9.868619] (yolov5_humble) StdoutLine: {'line': b'byte-compiling /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble/yolov5_node (copy).py to yolov5_node (copy).cpython-310.pyc\n'}
+[9.869861] (yolov5_humble) StdoutLine: {'line': b'byte-compiling /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble/yolov5_node.py to yolov5_node.cpython-310.pyc\n'}
+[9.870730] (yolov5_humble) StdoutLine: {'line': b'running install_data\n'}
+[9.871174] (yolov5_humble) StdoutLine: {'line': b'creating /home/wise/ws_yolov5/install/yolov5_humble/share/ament_index/resource_index/packages\n'}
+[9.871618] (yolov5_humble) StdoutLine: {'line': b'copying resource/yolov5_humble -> /home/wise/ws_yolov5/install/yolov5_humble/share/ament_index/resource_index/packages\n'}
+[9.872010] (yolov5_humble) StdoutLine: {'line': b'copying package.xml -> /home/wise/ws_yolov5/install/yolov5_humble/share/yolov5_humble\n'}
+[9.872223] (yolov5_humble) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.910953] (yolov5_humble) StdoutLine: {'line': b'Copying ../../build/yolov5_humble/yolov5_humble.egg-info to /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble-0.0.0-py3.10.egg-info\n'}
+[9.912779] (yolov5_humble) StdoutLine: {'line': b'running install_scripts\n'}
+[9.938657] (-) TimerEvent: {}
+[10.039068] (-) TimerEvent: {}
+[10.139777] (-) TimerEvent: {}
+[10.192959] (yolov5_humble) StdoutLine: {'line': b'Installing yolov5_node script to /home/wise/ws_yolov5/install/yolov5_humble/lib/yolov5_humble\n'}
+[10.193750] (yolov5_humble) StdoutLine: {'line': b"writing list of installed files to '/home/wise/ws_yolov5/build/yolov5_humble/install.log'\n"}
+[10.239892] (-) TimerEvent: {}
+[10.262294] (yolov5_humble) CommandEnded: {'returncode': 0}
+[10.279672] (yolov5_humble) JobEnded: {'identifier': 'yolov5_humble', 'rc': 0}
+[10.282118] (-) EventReactorShutdown: {}

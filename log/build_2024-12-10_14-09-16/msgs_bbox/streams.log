@@ -1,0 +1,250 @@
+[0.026s] Invoking command in '/home/wise/ws_yolov5/build/msgs_bbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake /home/wise/ws_yolov5/src/msgs_bbox -DCMAKE_INSTALL_PREFIX=/home/wise/ws_yolov5/install/msgs_bbox
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.377s] -- Detecting C compile features
+[0.378s] -- Detecting C compile features - done
+[0.389s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.551s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.291s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.482s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.506s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.146s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.238s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.241s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.314s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.315s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.315s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.315s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.375s] -- Found PythonExtra: .so  
+[3.477s] -- Configuring done
+[3.530s] -- Generating done
+[3.547s] -- Build files have been written to: /home/wise/ws_yolov5/build/msgs_bbox
+[3.562s] Invoked command in '/home/wise/ws_yolov5/build/msgs_bbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake /home/wise/ws_yolov5/src/msgs_bbox -DCMAKE_INSTALL_PREFIX=/home/wise/ws_yolov5/install/msgs_bbox
+[3.567s] Invoking command in '/home/wise/ws_yolov5/build/msgs_bbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake --build /home/wise/ws_yolov5/build/msgs_bbox -- -j8 -l8
+[3.646s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.661s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.676s] [  5%] Built target ament_cmake_python_copy_msgs_bbox
+[4.104s] running egg_info
+[4.146s] creating msgs_bbox.egg-info
+[4.146s] writing msgs_bbox.egg-info/PKG-INFO
+[4.147s] writing dependency_links to msgs_bbox.egg-info/dependency_links.txt
+[4.147s] writing top-level names to msgs_bbox.egg-info/top_level.txt
+[4.148s] writing manifest file 'msgs_bbox.egg-info/SOURCES.txt'
+[4.168s] [  5%] Built target msgs_bbox__cpp
+[4.185s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.185s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.186s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.239s] [ 17%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_c.dir/rosidl_generator_c/msgs_bbox/msg/detail/b_boxes__functions.c.o[0m
+[4.239s] [ 17%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_c.dir/rosidl_generator_c/msgs_bbox/msg/detail/b_box__functions.c.o[0m
+[4.270s] reading manifest file 'msgs_bbox.egg-info/SOURCES.txt'
+[4.272s] writing manifest file 'msgs_bbox.egg-info/SOURCES.txt'
+[4.323s] [ 20%] [32m[1mLinking C shared library libmsgs_bbox__rosidl_generator_c.so[0m
+[4.361s] [ 20%] Built target ament_cmake_python_build_msgs_bbox_egg
+[4.379s] [ 20%] Built target msgs_bbox__rosidl_generator_c
+[4.395s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.395s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.395s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.647s] [ 30%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_bbox/msg/b_boxes__type_support.cpp.o[0m
+[4.648s] [ 33%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_bbox/msg/b_box__type_support.cpp.o[0m
+[4.699s] [ 38%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_bbox/msg/detail/b_boxes__type_support.cpp.o[0m
+[4.699s] [ 38%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_bbox/msg/detail/b_box__type_support.cpp.o[0m
+[4.726s] [ 41%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_bbox/msg/detail/dds_fastrtps/b_box__type_support.cpp.o[0m
+[4.882s] [ 43%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_bbox/msg/b_box__type_support.cpp.o[0m
+[4.947s] [ 46%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_bbox/msg/b_boxes__type_support.cpp.o[0m
+[4.952s] [ 48%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_bbox/msg/detail/b_box__type_support.c.o[0m
+[4.993s] [ 51%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_bbox/msg/detail/b_box__type_support_c.cpp.o[0m
+[5.007s] [ 53%] [32m[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_c.so[0m
+[5.019s] [ 56%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_bbox/msg/detail/b_boxes__type_support.c.o[0m
+[5.079s] [ 56%] Built target msgs_bbox__rosidl_typesupport_c
+[5.093s] [ 61%] [32m[1mLinking C shared library libmsgs_bbox__rosidl_typesupport_introspection_c.so[0m
+[5.094s] [ 61%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_bbox/msg/detail/dds_fastrtps/b_boxes__type_support.cpp.o[0m
+[5.148s] [ 61%] Built target msgs_bbox__rosidl_typesupport_introspection_c
+[5.167s] [ 64%] [32mBuilding CXX object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_bbox/msg/detail/b_boxes__type_support_c.cpp.o[0m
+[5.199s] [ 66%] [32m[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_cpp.so[0m
+[5.281s] [ 66%] Built target msgs_bbox__rosidl_typesupport_cpp
+[5.562s] [ 69%] [32m[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_introspection_cpp.so[0m
+[5.698s] [ 69%] Built target msgs_bbox__rosidl_typesupport_introspection_cpp
+[5.852s] [ 71%] [32m[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_fastrtps_c.so[0m
+[5.935s] [ 74%] [32m[1mLinking CXX shared library libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.984s] [ 74%] Built target msgs_bbox__rosidl_typesupport_fastrtps_c
+[6.065s] [ 74%] Built target msgs_bbox__rosidl_typesupport_fastrtps_cpp
+[6.107s] [ 74%] Built target msgs_bbox
+[6.149s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.796s] [ 76%] Built target msgs_bbox__py
+[6.833s] [ 82%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_py.dir/rosidl_generator_py/msgs_bbox/msg/_b_boxes_s.c.o[0m
+[6.833s] [ 82%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_generator_py.dir/rosidl_generator_py/msgs_bbox/msg/_b_box_s.c.o[0m
+[7.020s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/msgs_bbox/libmsgs_bbox__rosidl_generator_py.so[0m
+[7.097s] [ 84%] Built target msgs_bbox__rosidl_generator_py
+[7.137s] [ 89%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_c.c.o[0m
+[7.138s] [ 89%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.138s] [ 92%] [32mBuilding C object CMakeFiles/msgs_bbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.296s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.304s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.317s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.353s] [100%] Built target msgs_bbox__rosidl_typesupport_c__pyext
+[7.365s] [100%] Built target msgs_bbox__rosidl_typesupport_fastrtps_c__pyext
+[7.374s] [100%] Built target msgs_bbox__rosidl_typesupport_introspection_c__pyext
+[7.395s] Invoked command in '/home/wise/ws_yolov5/build/msgs_bbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake --build /home/wise/ws_yolov5/build/msgs_bbox -- -j8 -l8
+[7.416s] Invoking command in '/home/wise/ws_yolov5/build/msgs_bbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake --install /home/wise/ws_yolov5/build/msgs_bbox
+[7.433s] -- Install configuration: ""
+[7.433s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/rosidl_interfaces/msgs_bbox
+[7.434s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.434s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.434s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_boxes.h
+[7.434s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_box.h
+[7.435s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.435s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__struct.h
+[7.435s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__functions.h
+[7.435s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.h
+[7.436s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__functions.c
+[7.436s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__struct.h
+[7.436s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__functions.c
+[7.436s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.h
+[7.436s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__functions.h
+[7.437s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_generator_c__visibility_control.h
+[7.437s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/library_path.sh
+[7.437s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/library_path.dsv
+[7.438s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_c.so
+[7.438s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_c.so" to ""
+[7.439s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.439s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.439s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.440s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_fastrtps_c.h
+[7.440s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_fastrtps_c.h
+[7.440s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.440s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_c.so
+[7.440s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_c.so" to ""
+[7.441s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.441s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.441s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.441s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_introspection_c.h
+[7.442s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.c
+[7.442s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.c
+[7.442s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_introspection_c.h
+[7.442s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.442s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_c.so
+[7.443s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_c.so" to ""
+[7.443s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_c.so
+[7.450s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_c.so" to ""
+[7.450s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.450s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.451s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_boxes.hpp
+[7.451s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/b_box.hpp
+[7.451s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.451s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__builder.hpp
+[7.452s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__traits.hpp
+[7.452s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__traits.hpp
+[7.452s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__struct.hpp
+[7.452s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__builder.hpp
+[7.453s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__struct.hpp
+[7.453s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.453s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.453s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.454s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.454s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[7.454s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_fastrtps_cpp.hpp
+[7.455s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/dds_fastrtps
+[7.455s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so
+[7.455s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.455s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox
+[7.455s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg
+[7.456s] -- Up-to-date: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail
+[7.456s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__rosidl_typesupport_introspection_cpp.hpp
+[7.456s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__type_support.cpp
+[7.456s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_box__rosidl_typesupport_introspection_cpp.hpp
+[7.457s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/include/msgs_bbox/msgs_bbox/msg/detail/b_boxes__type_support.cpp
+[7.458s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_cpp.so
+[7.459s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_introspection_cpp.so" to ""
+[7.459s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_cpp.so
+[7.460s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_typesupport_cpp.so" to ""
+[7.460s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/pythonpath.sh
+[7.460s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/pythonpath.dsv
+[7.460s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info
+[7.461s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/PKG-INFO
+[7.461s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.462s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.462s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox-0.0.0-py3.10.egg-info/top_level.txt
+[7.462s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox
+[7.463s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.463s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.463s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_c.c
+[7.464s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.464s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_introspection_c.c
+[7.464s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/__init__.py
+[7.465s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg
+[7.465s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes_s.c
+[7.465s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes.py
+[7.465s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/__init__.py
+[7.465s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box.py
+[7.466s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box_s.c
+[7.466s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/libmsgs_bbox__rosidl_generator_py.so
+[7.466s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.528s] Listing '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox'...
+[7.528s] Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/__init__.py'...
+[7.529s] Listing '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg'...
+[7.529s] Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/__init__.py'...
+[7.529s] Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_box.py'...
+[7.529s] Compiling '/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msg/_b_boxes.py'...
+[7.540s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.540s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.541s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.541s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.542s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.543s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/local/lib/python3.10/dist-packages/msgs_bbox/msgs_bbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.543s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_py.so
+[7.543s] -- Set runtime path of "/home/wise/ws_yolov5/install/msgs_bbox/lib/libmsgs_bbox__rosidl_generator_py.so" to ""
+[7.544s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBox.idl
+[7.544s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBoxes.idl
+[7.544s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBox.msg
+[7.545s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/msg/BBoxes.msg
+[7.545s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/package_run_dependencies/msgs_bbox
+[7.545s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/parent_prefix_path/msgs_bbox
+[7.545s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/ament_prefix_path.sh
+[7.546s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/ament_prefix_path.dsv
+[7.546s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/path.sh
+[7.546s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/environment/path.dsv
+[7.547s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.bash
+[7.547s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.sh
+[7.547s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.zsh
+[7.548s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/local_setup.dsv
+[7.548s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/package.dsv
+[7.548s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/ament_index/resource_index/packages/msgs_bbox
+[7.549s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cExport.cmake
+[7.549s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cExport-noconfig.cmake
+[7.550s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cExport.cmake
+[7.550s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.550s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cExport.cmake
+[7.551s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.551s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cExport.cmake
+[7.551s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cExport-noconfig.cmake
+[7.552s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_cppExport.cmake
+[7.552s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.552s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.553s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cppExport.cmake
+[7.553s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.553s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cppExport.cmake
+[7.554s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bbox__rosidl_typesupport_cppExport-noconfig.cmake
+[7.555s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_pyExport.cmake
+[7.555s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/export_msgs_bbox__rosidl_generator_pyExport-noconfig.cmake
+[7.556s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake-extras.cmake
+[7.556s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.557s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_libraries-extras.cmake
+[7.557s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_targets-extras.cmake
+[7.558s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.559s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.560s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.560s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bboxConfig.cmake
+[7.561s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/cmake/msgs_bboxConfig-version.cmake
+[7.561s] -- Installing: /home/wise/ws_yolov5/install/msgs_bbox/share/msgs_bbox/package.xml
+[7.569s] Invoked command in '/home/wise/ws_yolov5/build/msgs_bbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wise/ws_yolov5/install/image_publisher:/home/wise/ws_yolov5/install/yolov5_humble:/opt/ros/humble /usr/bin/cmake --install /home/wise/ws_yolov5/build/msgs_bbox

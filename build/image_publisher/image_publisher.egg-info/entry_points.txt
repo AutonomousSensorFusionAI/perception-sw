@@ -1,0 +1,2 @@
+[console_scripts]
+frame_publisher = image_publisher.frame_publisher:main

@@ -1,0 +1,4 @@
+Invoking command in '/home/wise/ws_yolov5/build/msgs_bbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wise/ws_yolov5/build/msgs_bbox -- -j8 -l8
+Invoked command in '/home/wise/ws_yolov5/build/msgs_bbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wise/ws_yolov5/build/msgs_bbox -- -j8 -l8
+Invoking command in '/home/wise/ws_yolov5/build/msgs_bbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wise/ws_yolov5/build/msgs_bbox
+Invoked command in '/home/wise/ws_yolov5/build/msgs_bbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wise/ws_yolov5/build/msgs_bbox

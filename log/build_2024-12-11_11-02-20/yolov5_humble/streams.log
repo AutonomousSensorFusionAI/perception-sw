@@ -1,0 +1,31 @@
+[1.573s] Invoking command in '/home/wise/ws_yolov5/src/yolov5_humble': LD_LIBRARY_PATH=/home/wise/ws_yolov5/install/msgs_bbox/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64 PYTHONPATH=/home/wise/ws_yolov5/build/yolov5_humble/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov5_humble build --build-base /home/wise/ws_yolov5/build/yolov5_humble/build install --record /home/wise/ws_yolov5/build/yolov5_humble/install.log --single-version-externally-managed install_data
+[1.867s] /home/wise/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.867s]   warnings.warn(msg)
+[2.083s] running egg_info
+[2.118s] writing ../../build/yolov5_humble/yolov5_humble.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../../build/yolov5_humble/yolov5_humble.egg-info/dependency_links.txt
+[2.119s] writing entry points to ../../build/yolov5_humble/yolov5_humble.egg-info/entry_points.txt
+[2.120s] writing requirements to ../../build/yolov5_humble/yolov5_humble.egg-info/requires.txt
+[2.120s] writing top-level names to ../../build/yolov5_humble/yolov5_humble.egg-info/top_level.txt
+[2.193s] reading manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'
+[2.196s] writing manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'
+[2.196s] running build
+[2.196s] running build_py
+[2.197s] copying yolov5_humble/__init__.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.197s] copying yolov5_humble/yolov5_node (copy).py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.197s] copying yolov5_humble/yolov5_node_2.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.198s] copying yolov5_humble/yolov5_node.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.198s] running install
+[2.207s] running install_lib
+[2.243s] copying /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble/yolov5_node.py -> /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble
+[2.244s] byte-compiling /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble/yolov5_node.py to yolov5_node.cpython-310.pyc
+[2.245s] running install_data
+[2.246s] copying resource/yolov5_humble -> /home/wise/ws_yolov5/install/yolov5_humble/share/ament_index/resource_index/packages
+[2.246s] copying package.xml -> /home/wise/ws_yolov5/install/yolov5_humble/share/yolov5_humble
+[2.246s] running install_egg_info
+[2.285s] removing '/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble-0.0.0-py3.10.egg-info' (and everything under it)
+[2.285s] Copying ../../build/yolov5_humble/yolov5_humble.egg-info to /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble-0.0.0-py3.10.egg-info
+[2.287s] running install_scripts
+[2.567s] Installing yolov5_node script to /home/wise/ws_yolov5/install/yolov5_humble/lib/yolov5_humble
+[2.567s] writing list of installed files to '/home/wise/ws_yolov5/build/yolov5_humble/install.log'
+[2.638s] Invoked command in '/home/wise/ws_yolov5/src/yolov5_humble' returned '0': LD_LIBRARY_PATH=/home/wise/ws_yolov5/install/msgs_bbox/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64 PYTHONPATH=/home/wise/ws_yolov5/build/yolov5_humble/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov5_humble build --build-base /home/wise/ws_yolov5/build/yolov5_humble/build install --record /home/wise/ws_yolov5/build/yolov5_humble/install.log --single-version-externally-managed install_data

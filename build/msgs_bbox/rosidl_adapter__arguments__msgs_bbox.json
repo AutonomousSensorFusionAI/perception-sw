@@ -1,0 +1,7 @@
+{
+  "package_name": "msgs_bbox",
+  "non_idl_tuples": [
+    "/home/wise/ws_yolov5/src/msgs_bbox:msg/BBox.msg",
+    "/home/wise/ws_yolov5/src/msgs_bbox:msg/BBoxes.msg"
+  ]
+}

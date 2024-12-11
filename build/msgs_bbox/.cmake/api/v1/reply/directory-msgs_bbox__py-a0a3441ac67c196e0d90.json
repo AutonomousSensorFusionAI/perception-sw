@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msgs_bbox__py",
+		"source" : "/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py"
+	}
+}

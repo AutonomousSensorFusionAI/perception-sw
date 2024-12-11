@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "msgs_bbox::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "msgs_bbox__py::@eafda2032ac33e0795de",
+	"name" : "msgs_bbox__py",
+	"paths" : 
+	{
+		"build" : "msgs_bbox__py",
+		"source" : "/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py/CMakeFiles/msgs_bbox__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wise/ws_yolov5/build/msgs_bbox/msgs_bbox__py/CMakeFiles/msgs_bbox__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wise/ws_yolov5/build/msgs_bbox/rosidl_generator_py/msgs_bbox/_msgs_bbox_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

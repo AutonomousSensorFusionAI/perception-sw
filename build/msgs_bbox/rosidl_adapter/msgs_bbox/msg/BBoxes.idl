@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgs_bbox/msg/BBoxes.msg
+// generated code does not contain a copyright notice
+
+#include "msgs_bbox/msg/BBox.idl"
+
+module msgs_bbox {
+  module msg {
+    struct BBoxes {
+      sequence<msgs_bbox::msg::BBox> bbox;
+    };
+  };
+};

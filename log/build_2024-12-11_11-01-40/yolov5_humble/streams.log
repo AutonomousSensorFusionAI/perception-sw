@@ -1,0 +1,29 @@
+[1.607s] Invoking command in '/home/wise/ws_yolov5/src/yolov5_humble': LD_LIBRARY_PATH=/home/wise/ws_yolov5/install/msgs_bbox/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64 PYTHONPATH=/home/wise/ws_yolov5/build/yolov5_humble/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov5_humble build --build-base /home/wise/ws_yolov5/build/yolov5_humble/build install --record /home/wise/ws_yolov5/build/yolov5_humble/install.log --single-version-externally-managed install_data
+[1.921s] /home/wise/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.922s]   warnings.warn(msg)
+[2.150s] running egg_info
+[2.186s] writing ../../build/yolov5_humble/yolov5_humble.egg-info/PKG-INFO
+[2.188s] writing dependency_links to ../../build/yolov5_humble/yolov5_humble.egg-info/dependency_links.txt
+[2.189s] writing entry points to ../../build/yolov5_humble/yolov5_humble.egg-info/entry_points.txt
+[2.189s] writing requirements to ../../build/yolov5_humble/yolov5_humble.egg-info/requires.txt
+[2.189s] writing top-level names to ../../build/yolov5_humble/yolov5_humble.egg-info/top_level.txt
+[2.268s] reading manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'
+[2.273s] writing manifest file '../../build/yolov5_humble/yolov5_humble.egg-info/SOURCES.txt'
+[2.273s] running build
+[2.273s] running build_py
+[2.274s] copying yolov5_humble/__init__.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.275s] copying yolov5_humble/yolov5_node (copy).py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.275s] copying yolov5_humble/yolov5_node_2.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.275s] copying yolov5_humble/yolov5_node.py -> /home/wise/ws_yolov5/build/yolov5_humble/build/lib/yolov5_humble
+[2.276s] running install
+[2.285s] running install_lib
+[2.329s] running install_data
+[2.330s] copying resource/yolov5_humble -> /home/wise/ws_yolov5/install/yolov5_humble/share/ament_index/resource_index/packages
+[2.330s] copying package.xml -> /home/wise/ws_yolov5/install/yolov5_humble/share/yolov5_humble
+[2.331s] running install_egg_info
+[2.369s] removing '/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble-0.0.0-py3.10.egg-info' (and everything under it)
+[2.370s] Copying ../../build/yolov5_humble/yolov5_humble.egg-info to /home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages/yolov5_humble-0.0.0-py3.10.egg-info
+[2.372s] running install_scripts
+[2.669s] Installing yolov5_node script to /home/wise/ws_yolov5/install/yolov5_humble/lib/yolov5_humble
+[2.672s] writing list of installed files to '/home/wise/ws_yolov5/build/yolov5_humble/install.log'
+[2.741s] Invoked command in '/home/wise/ws_yolov5/src/yolov5_humble' returned '0': LD_LIBRARY_PATH=/home/wise/ws_yolov5/install/msgs_bbox/lib:/usr/local/cuda-12.0/extras/CUPTI/lib64:/usr/lib/aarch64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.0/lib64 PYTHONPATH=/home/wise/ws_yolov5/build/yolov5_humble/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wise/ws_yolov5/install/yolov5_humble/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov5_humble build --build-base /home/wise/ws_yolov5/build/yolov5_humble/build install --record /home/wise/ws_yolov5/build/yolov5_humble/install.log --single-version-externally-managed install_data
