@@ -33,4 +33,5 @@ bin_file = '/home/wise/Documents/sjy/250122_from_bag/output_images_and_pcds/4735
 
 print(f'source: {pcd_file}')
 print(f'target: {bin_file}')
+print(f'-------')
 pcd_to_bin(pcd_file, bin_file)
