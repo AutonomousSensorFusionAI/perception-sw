@@ -117,6 +117,8 @@ void Calibrator::ProcessPointcloud(const pcl::PointCloud<pcl::PointXYZI>::Ptr pc
     pc_.reset(new pcl::PointCloud<PointXYZINS>);
     for (unsigned i = 0; i < pc_filtered->size(); i++)
     {
+    std::cout << "point cloud ------" << std::endl;
+
         PointXYZINS pt;
         pt.x = (*pc_filtered)[i].x;
         pt.y = (*pc_filtered)[i].y;
