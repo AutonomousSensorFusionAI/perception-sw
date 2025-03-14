@@ -1,3 +1,4 @@
+
 #include "calibration.hpp"
 
 cv::Mat color_bar = cv::Mat(1, 13 * 3 * 3, CV_8UC3);

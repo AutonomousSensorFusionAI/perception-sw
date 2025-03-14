@@ -1,6 +1,8 @@
 '''
 250122, sjy
 
+convert pcd file into bin file for openPCDet detection
+
 '''
 import open3d as o3d
 import numpy as np
