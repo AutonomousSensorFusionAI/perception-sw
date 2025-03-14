@@ -64,7 +64,7 @@ Calibrator::Calibrator(const std::string mask_dir,
     pcl::PointCloud<pcl::PointXYZI>::Ptr pc_origin(new pcl::PointCloud<pcl::PointXYZI>);
     DataLoader::LoadLidarFile(lidar_file, pc_origin);
     // preprocess point cloud
-    std::cout << "----------Start processing data----------" << std::endl;
+    std::cout << "------Start processing data------" << std::endl;
     ProcessPointcloud(pc_origin);
 
     Create_ColorBar();
