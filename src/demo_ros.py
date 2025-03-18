@@ -26,10 +26,11 @@ from pcdet.utils import common_utils
 
 # np.set_printoptions(threshold=sys.maxsize)
 
+
+# variables
 c_points = None
 c_convert_flag = False
 visual_cloud = None
-
 object_count = 0
 right_object_count = 0
 right_car_count = 0
