@@ -200,6 +200,7 @@ def main():
                 frame_cnt += 1
                 input_time = (time.time() - start_time) * 1000
                 print("%d-1. 프로그램 시작 후 %d번째 LiDAR 데이터 프레임이 입력된 시간: %.2f ms" % (frame_cnt, frame_cnt, input_time))
+                print("good test")
                 
                 flatten_points = c_points.flatten()
                 flatten_points_xyzi = flatten_points[['x', 'y', 'z', 'intensity']]
