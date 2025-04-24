@@ -58,10 +58,7 @@ def euler_to_quaternion(yaw, pitch, roll):
     qy = np.cos(roll/2) * np.sin(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.cos(pitch/2) * np.sin(yaw/2)
     qz = np.cos(roll/2) * np.cos(pitch/2) * np.sin(yaw/2) - np.sin(roll/2) * np.sin(pitch/2) * np.cos(yaw/2)
     qw = np.cos(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
-    print("qx : ", qx)
-    print("qy : ", qy)
-    print("qz : ", qz)
-    print("qw : ", qw)
+
     return [qx, qy, qz, qw]
 
 class DemoDataset(DatasetTemplate):
