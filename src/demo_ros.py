@@ -61,6 +61,7 @@ def euler_to_quaternion(yaw, pitch, roll):
     print("qx : ", qx)
     print("qy : ", qy)
     print("qz : ", qz)
+    print("qw : ", qw)
     return [qx, qy, qz, qw]
 
 class DemoDataset(DatasetTemplate):
