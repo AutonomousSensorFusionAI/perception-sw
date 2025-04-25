@@ -1,21 +1,17 @@
 '''
 250122, sjy
 
-convert pcd file into bin file for openPCDet detection
-
 '''
 import open3d as o3d
 import numpy as np
 
 
 def pcd_to_bin(pcd_file, bin_file):
-    # PCD 파일 읽기
+
     pcd = o3d.io.read_point_cloud(pcd_file)
     
-    # 포인트 클라우드 데이터를 numpy 배열로 변환 (x, y, z)
     points = np.asarray(pcd.points)
 
-    # PCD에 intensity 정보가 있을 경우 (예: 'intensity'가 pcd.colors에 포함될 경우)
     if len(pcd.colors) > 0:  # colors 배열이 존재할 때
         # intensity 정보 (color를 intensity로 간주)
         intensity = np.asarray(pcd.colors)[:, 0]  # R값만 사용한다고 가정 (혹은 다른 채널 선택 가능)
