@@ -4,7 +4,7 @@ cv::Mat color_bar = cv::Mat(1, 13 * 3 * 3, CV_8UC3);
 unsigned char *pBar = color_bar.data;
 void Create_ColorBar()
 {
-    int H[13] = {180, 120, 60, 160, 100, 40, 150, 90, 30, 140, 80, 20, 10};
+    int H[13] = {119, 112, 69, 141, 100, 40, 150, 90, 30, 140, 80, 20, 10};
     int S[3] = {255, 100, 30};
     int V[3] = {255, 180, 90};
 
