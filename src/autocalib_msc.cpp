@@ -21,8 +21,8 @@ void Create_ColorBar()
         if (v == 3 * 17 * 3)
             v = 0;
         pColor[ba * 3 + 0] = H[h];
-        pColor[ba * 3 + 1] = S[s / 13];
-        pColor[ba * 3 + 2] = V[v / 13 / 3];
+        pColor[ba * 3 + 1] = S[s / 17];
+        pColor[ba * 3 + 2] = V[v / 17 / 3];
     }
     cv::cvtColor(color, color_bar, CV_HSV2BGR);
 }
@@ -117,7 +117,7 @@ void Calibrator::ProcessPointcloud(const pcl::PointCloud<pcl::PointXYZI>::Ptr pc
     pc_.reset(new pcl::PointCloud<PointXYZINS>);
     for (unsigned i = 0; i < pc_filtered->size(); i++)
     {
-    std::cout << "point cloud ------" << std::endl;
+    std::cout << "point cloud print ------" << std::endl;
 
         PointXYZINS pt;
         pt.x = (*pc_filtered)[i].x;
