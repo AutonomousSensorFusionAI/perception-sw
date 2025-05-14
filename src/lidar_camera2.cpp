@@ -55,6 +55,7 @@ int main(int argc, char *argv[]) {
         std::cout << "Open dir " << mask_dir << " error !" << std::endl;
         exit(1);
     }
+    
     while ((ptr = readdir(dir)) != NULL)
     {
         std::string name = ptr->d_name;
