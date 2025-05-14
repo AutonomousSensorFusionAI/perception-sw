@@ -16,9 +16,9 @@ void Create_ColorBar()
     {
         if (h == 17)
             h = 0;
-        if (s == 3 * 13)
+        if (s == 3 * 17)
             s = 0;
-        if (v == 3 * 13 * 3)
+        if (v == 3 * 17 * 3)
             v = 0;
         pColor[ba * 3 + 0] = H[h];
         pColor[ba * 3 + 1] = S[s / 13];
