@@ -69,7 +69,6 @@ Calibrator::Calibrator(const std::string mask_dir,
     Create_ColorBar();
 }
 
-
 void Calibrator::ProcessPointcloud(const pcl::PointCloud<pcl::PointXYZI>::Ptr pc_origin)
 {
     // pre-filter points by initial extrinsic
