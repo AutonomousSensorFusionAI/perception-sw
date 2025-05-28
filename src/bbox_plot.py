@@ -17,6 +17,7 @@ bbox_data = np.array([
 ])
 
 
+
 # Create a blank image (white background)
 #image = np.ones((720, 1280, 3), dtype=np.uint8) * 255  # 720p resolution with 3 channels (RGB)
 
