@@ -72,6 +72,7 @@ int main(int argc, char *argv[]) {
             calib_file = data_folder + '/' + ptr->d_name;
         ptr++;
     }
+    
 
     auto time_begin = std::chrono::steady_clock::now();
     Calibrator calibrator(mask_dir, lidar_file, calib_file, img_file, error_file);
