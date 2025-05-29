@@ -83,6 +83,5 @@ int main(int argc, char *argv[]) {
                 << std::chrono::duration<double>(time_end - time_begin).count()
                 << "s" << std::endl;
                 
-                
     return 0;
 }
