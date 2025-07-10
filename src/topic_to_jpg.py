@@ -46,6 +46,7 @@ def main(args=None):
     rclpy.init(args=args)
     parser = argparse.ArgumentParser(description="ROS2 Image Saver Node")
     parser.add_argument('--topic', type=str, default='image_raw', help='Image topic name')
+    
     args, _ = parser.parse_known_args()
     node = ImageSaver(args.topic)
     try:
