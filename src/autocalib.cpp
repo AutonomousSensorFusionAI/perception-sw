@@ -45,6 +45,7 @@ Calibrator::Calibrator(const std::string mask_dir,
     masks_ = cv::Mat::zeros(IMG_H, IMG_W, CV_8UC4);
     DataLoader::LoadMaskFile(mask_dir, intrinsic_, dist_, masks_, mask_point_num_);
     N_MASK = mask_point_num_.size();
+    
 
     // add error to the inital extrinsic
     float var[6] = {0};
