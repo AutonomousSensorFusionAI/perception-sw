@@ -121,7 +121,7 @@ class yolov5_demo():
         self.dt[0] += t2 - t1
 
         # Inference
-        save_dir = "runs/detect/exp7"
+        save_dir = "runs/detect"
         path = ['0']
 
         # visualize = increment_path(save_dir / Path(path).stem, mkdir=True) if visualize else False
