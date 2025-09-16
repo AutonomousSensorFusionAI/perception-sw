@@ -9,6 +9,7 @@ import time
 def get_current_timestamp():
     return time.strftime("%y%m%d_%H%M%S") + ".jpg"
 
+
 def main():
     # rtsp_url = "rtsp://admin:1234@192.168.0.223:554/stream protocols=udp latency=0"  
     #rtsp_url = "rtsp://admin:tlJwpbo6@192.168.0.220:554/stream protocols=udp latency=0"
