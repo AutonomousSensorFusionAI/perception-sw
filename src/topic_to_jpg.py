@@ -14,7 +14,6 @@ import argparse
 from datetime import datetime
 import os
 
-
 class ImageSaver(Node):
     def __init__(self, topic_name):
         super().__init__('img_saver')
