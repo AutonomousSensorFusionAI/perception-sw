@@ -8,6 +8,7 @@
 
 void SaveExtrinsic(Eigen::Matrix4f T)
 {
+    
     // std::string file_name = "extrinsic.txt";
     std::string file_name = "CL_extrinsic.txt";
     
