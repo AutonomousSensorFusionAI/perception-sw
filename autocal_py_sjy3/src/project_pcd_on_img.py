@@ -20,15 +20,12 @@ def load_rt_from_yaml(yaml_file):
     with open(yaml_file, 'r') as file:
         data = yaml.safe_load(file)
     
-    # 회전 행렬과 변환 벡터 파싱
     rotation_matrix = np.array(data['rotation_matrix'], dtype=np.float32)
     translation_vector = np.array(data['translation_vector'], dtype=np.float32)
     
     return rotation_matrix, translation_vector
 
-# 라이다 포인트 클라우드 데이터를 읽고 2D 이미지 좌표로 투영하는 함수
 def project_lidar_to_image(pcd_file, rotation_matrix, translation_vector, camera_matrix):
-    # PCD 파일 읽기
     pcd = o3d.io.read_point_cloud(pcd_file)
     points = np.asarray(pcd.points)  # (N, 3) 형태의 라이다 포인트들
     
@@ -37,25 +34,19 @@ def project_lidar_to_image(pcd_file, rotation_matrix, translation_vector, camera
     filtered_points = points[(points[:, 1] < 0)]  # x>0, y<0 필터링
     # filtered_points = points
     
-    # 회전 및 변환 적용
     # translation_vector를 (1, 3) 형태로 변환
     transformed_points = np.dot(filtered_points, rotation_matrix.T) + translation_vector.T  # (78404, 3) + (1, 3)
     
-    # 3D -> 2D 투영 (카메라 매트릭스 이용)
     projected_points = camera_matrix @ transformed_points.T  # (3, N) 형태로 변환
     projected_points /= projected_points[2, :]  # Homogeneous 좌표에서 스케일링
     
-    # 2D 이미지 좌표로 변환
     image_points = projected_points[:2, :].T  # (N, 2)
     
     return image_points
 
-# 이미지 위에 포인트를 표시하는 함수
 def display_projected_points(image_file, projected_points):
-    # 이미지 로드
     image = cv2.imread(image_file)
     
-    # 포인트를 이미지 위에 그리기
     for point in projected_points:
         x, y = int(point[0]), int(point[1])
         if 0 <= x < image.shape[1] and 0 <= y < image.shape[0]:
@@ -85,10 +76,8 @@ def main():
                               [0, fy, cy], 
                               [0, 0, 1]], dtype=np.float32)
 
-    # 라이다 포인트를 이미지 위에 투영
     projected_points = project_lidar_to_image(args.pcd_file, rotation_matrix, translation_vector, camera_matrix)
     
-    # 투영된 포인트를 이미지 위에 표시
     display_projected_points(args.image_file, projected_points)
 
 if __name__ == "__main__":
