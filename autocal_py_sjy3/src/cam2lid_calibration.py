@@ -37,9 +37,7 @@ def load_points_and_intrinsics_from_yaml(yaml_file):
 
     return points_2d, points_3d, camera_matrix
 
-# 2D-3D 대응점을 이용하여 R|t 계산하는 함수
 def compute_rt_matrix(points_2d, points_3d, camera_matrix):
-    # 2D, 3D 대응점이 최소 4개 이상이어야 합니다.
     if len(points_2d) < 4 or len(points_3d) < 4:
         raise ValueError("At least 4 points are needed for the transformation.")
 
@@ -49,7 +47,6 @@ def compute_rt_matrix(points_2d, points_3d, camera_matrix):
     # 회전 벡터를 회전 행렬로 변환
     rotation_matrix, _ = cv2.Rodrigues(rvec)
     
-    # R|t 결과 반환
     return rotation_matrix, tvec
 
 # 계산된 R|t를 YAML 파일로 저장하는 함수
@@ -63,17 +60,12 @@ def save_rt_to_yaml(rotation_matrix, translation_vector, filename):
 
 # 메인 함수
 def main():
-    # argparse를 사용하여 입력 및 출력 파일명 CLI로 받기
     parser = argparse.ArgumentParser(description="Compute R|t from 2D-3D point correspondences")
     parser.add_argument('--input_yaml', type=str, required=True, help='Input YAML file containing 2D/3D points and camera intrinsics')
     parser.add_argument('--output_yaml', type=str, required=True, help='Output YAML file to save the calibrated R|t')
 
     args = parser.parse_args()
-
-    # 2D, 3D 포인트와 카메라 내부 파라미터 로딩
     points_2d, points_3d, camera_matrix = load_points_and_intrinsics_from_yaml(args.input_yaml)
-
-    # 두 센서 간 R|t 계산
     rotation_matrix, translation_vector = compute_rt_matrix(points_2d, points_3d, camera_matrix)
 
     # 계산된 R|t 저장
