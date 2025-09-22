@@ -1,0 +1,35 @@
+# TF Data
+# 1번 객체
+[pcdet-1] Detected class ID : 9, Detected class: pedestrian, Score: 0.1507522016763687
+[pcdet-1] x : 6.121579170227051, y : 10.36072063446045, z : 0.6041701436042786
+[pcdet-1] size x : 0.7271199822425842, size y : 0.7047362327575684, size z : 1.8059027194976807
+# 5번 객체
+[pcdet-1] Detected class ID : 7, Detected class: motorcycle, Score: 0.19392535090446472
+[pcdet-1] x : 26.07113265991211, y : 10.095318794250488, z : -0.6592456102371216
+[pcdet-1] size x : 2.195033073425293, size y : 0.710178792476654, size z : 1.3529211282730103
+# 2번 객체
+[pcdet-1] Detected class ID : 10, Detected class: traffic_cone, Score: 0.1351756602525711
+[pcdet-1] x : 7.650069713592529, y : -7.325990676879883, z : -0.23361194133758545
+[pcdet-1] size x : 0.4130925238132477, size y : 0.3985818326473236, size z : 1.0793863534927368
+# 4번 객체
+[pcdet-1] Detected class ID : 7, Detected class: motorcycle, Score: 0.1115959882736206
+[pcdet-1] x : 16.598770141601562, y : -9.20689868927002, z : -0.3468015491962433
+[pcdet-1] size x : 2.1180572509765625, size y : 0.7029467225074768, size z : 1.37660551071167
+
+# No TF Data
+# 1번 객체
+[pcdet-1] Detected class ID : 7, Detected class: motorcycle, Score: 0.12605030834674835
+[pcdet-1] x : 10.184732437133789, y : -0.35085591673851013, z : 0.5752730369567871
+[pcdet-1] size x : 2.228775978088379, size y : 0.7710254788398743, size z : 1.477842092514038
+# 5번 객체
+[pcdet-1] Detected class ID : 9, Detected class: pedestrian, Score: 0.10251878947019577
+[pcdet-1] x : 17.08998680114746, y : -18.287689208984375, z : -0.688166618347168
+[pcdet-1] size x : 0.6671411991119385, size y : 0.6376769542694092, size z : 1.7635295391082764
+# 2번 객체
+[pcdet-1] Detected class ID : 10, Detected class: traffic_cone, Score: 0.13464944064617157
+[pcdet-1] x : 7.873623371124268, y : 2.3379666805267334, z : -0.2902348041534424
+[pcdet-1] size x : 0.39993342757225037, size y : 0.40563488006591797, size z : 1.2102673053741455
+# 4번 객체
+[pcdet-1] Detected class ID : 7, Detected class: motorcycle, Score: 0.10700271278619766
+[pcdet-1] x : 14.095398902893066, y : 7.098891735076904, z : -0.3130649924278259
+[pcdet-1] size x : 2.2009904384613037, size y : 0.7083483338356018, size z : 1.3911099433898926
