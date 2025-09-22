@@ -5,8 +5,8 @@ project pcd on image
 command:
 python3 project_pcd_on_img.py \
     --rt_yaml calibrated_output.yaml \
-    --pcd_file ../250124_test-data/322-514952000.pcd \
-    --image_file ../250124_test-data/4735.jpg 
+    --pcd_path ../250124_test-data/322-514952000.pcd \
+    --img_path ../250124_test-data/4735.jpg 
 
 '''
 import cv2
@@ -62,8 +62,8 @@ def main():
     # argparse를 사용하여 입력 및 출력 파일명 CLI로 받기
     parser = argparse.ArgumentParser(description="Project lidar points onto an image using R|t transformation")
     parser.add_argument('--rt_yaml', type=str, required=True, help='Path to the YAML file containing R|t (calibrated_output.yaml)')
-    parser.add_argument('--pcd_file', type=str, required=True, help='Path to the lidar PCD file (lidar_data.pcd)')
-    parser.add_argument('--image_file', type=str, required=True, help='Path to the image file to project lidar points onto (image.png)')
+    parser.add_argument('--pcd_path', type=str, required=True, help='Path to the lidar PCD file (lidar_data.pcd)')
+    parser.add_argument('--img_path', type=str, required=True, help='Path to the image file to project lidar points onto (image.png)')
 
     args = parser.parse_args()
 
