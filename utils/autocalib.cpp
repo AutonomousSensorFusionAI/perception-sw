@@ -236,12 +236,6 @@ void Calibrator::Calibrate()
     BruteForceSearch(6, 0.15, 0, 0, true); //[-0.9, 0.9]
     RandomSearch(5000, 0.1, 0.5, true); //[-0.5, 0.5]
 
-    // float var[6] = {-0.3, 0, 0.1, 0, 0, 0};
-    // CalScore(extrinsic_* Util::GetDeltaT(var), max_score_, true);
-    // VisualProjection(extrinsic_ * Util::GetDeltaT(var), img_file_, "error_proj.png");
-    // VisualProjectionSegment(extrinsic_ * Util::GetDeltaT(var), img_file_, "error_proj_seg.png");
-
-
     std::cout << "---------------Result---------------" << std::endl;
     PrintCurrentError();
     VisualProjection(extrinsic_, img_file_, "refined_proj.png");
