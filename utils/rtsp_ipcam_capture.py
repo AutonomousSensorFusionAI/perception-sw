@@ -3,7 +3,6 @@ for intrinsic calibration
 capture rtsp camera stream
 '''
 
-
 import cv2
 import time
 
