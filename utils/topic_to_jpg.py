@@ -4,7 +4,6 @@
 Subscribe to an image topic and save it as a jpg file once per second.
 '''
 
-
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
