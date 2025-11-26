@@ -2,3 +2,5 @@
 *.png
 *.yaml
 calib_out/
+*.mp4
+*.webp
