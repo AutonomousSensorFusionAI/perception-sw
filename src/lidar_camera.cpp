@@ -6,7 +6,6 @@
 
 #include "calibration.hpp"
 
-
 void SaveExtrinsic(Eigen::Matrix4f T)
 {
     // std::string file_name = "extrinsic.txt";
